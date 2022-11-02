@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>tsx</Title>
+			<Shortcut>tsx</Shortcut>
+			<Description>Компонент react в typescript со свойствами</Description>
+			<Author>Magna Physicus</Author>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>componentName</ID>
+					<ToolTip>Имя компонента</ToolTip>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[import React, { FC } from 'react';
+				
+const $componentName$: FC = () => {
+	return (
+		<div>
+
+		</div>
+	);
+};
+
+export default $componentName$;]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
