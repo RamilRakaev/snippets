@@ -1,0 +1,20 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>.</Title>
+		<Author>Scientist</Author>
+		<Shortcut>.</Shortcut>
+		<Description>Тег div с классом</Description>
+	</Header>
+	<Snippet>
+		<Code Language="HTML">
+			<![CDATA[<div class="$className$">$end$</div>]]>
+		</Code>
+		<Declarations>
+			<Literal>
+				<ID>className</ID>
+				<ToolTip>Имя класса</ToolTip>
+				<Default>className</Default>
+			</Literal>
+		</Declarations>
+	</Snippet>
+</CodeSnippet>
