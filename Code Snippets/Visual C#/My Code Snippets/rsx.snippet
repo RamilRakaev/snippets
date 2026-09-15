@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>rsx</Title>
+			<Shortcut>rsx</Shortcut>
+			<Description>Компонент react</Description>
+			<Author>Magna Physicus</Author>
+        </Header>
+        <Snippet>
+			<Declarations>
+				<Literal>
+					<ID>fileName</ID>
+					<ToolTip>Имя файла</ToolTip>
+				</Literal>
+			</Declarations>
+            <Code Language="CSharp">
+                <![CDATA[import React from 'react';
+
+const $fileName$ = () => {
+    return (
+        <div>
+		    $end$
+        </div>
+    );
+};
+
+export default $fileName$;]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
